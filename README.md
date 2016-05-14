@@ -12,9 +12,11 @@ maintenance and modern development, still I'm not sure about it's possible logic
  
 ## TO DO: 
 * Writing Tests
-* making sure it's identical to Date
-* refactor code
-* resolve eslint errors
-* document known differences to Data Class 
+* Making sure it's identical to Date
+* Refactor code
+* Resolve eslint errors
+* Document known differences to Data Class 
+* Writing documentation
+* Adding minified version
 
      
