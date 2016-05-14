@@ -1,0 +1,37 @@
+{
+    "extends": "eslint-config-airbnb",
+    "ecmaFeatures": {
+
+    },
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "rules": {
+        "strict": ["error", "never"],
+        "no-underscore-dangle": 0,
+        "no-else-return" : 0,
+        "default-case": 0,
+        "no-cond-assign": [2, "except-parens"],
+        "max-len": [1, 120, 2, {"ignoreComments": true}],
+        "arrow-body-style": [1, "as-needed"],
+        "no-var": 0,                     // http://eslint.org/docs/rules/no-var
+        "comma-dangle": [2, "never"],    // http://eslint.org/docs/rules/comma-dangle
+        "padded-blocks": [1, "never"],   // http://eslint.org/docs/rules/padded-blocks
+        "no-sparse-arrays": 1,           // http://eslint.org/docs/rules/no-sparse-arrays
+        "dot-notation": [2, {            // http://eslint.org/docs/rules/dot-notation
+            "allowKeywords": true,
+            "allowPattern": "^_?[a-z]+(_[a-z]+)+$"
+        }],
+        "no-param-reassign": 0,
+        "no-nested-ternary": 1,
+        "no-shadow": 1,
+        "new-cap": 1,
+        "consistent-return": 1,
+        "no-loop-func": 1,
+        "no-unused-vars": [1, {          // http://eslint.org/docs/rules/no-unused-vars
+          "vars": "local",
+          "args": "none"
+        }]
+    }
+}
