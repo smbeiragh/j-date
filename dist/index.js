@@ -2,7 +2,7 @@
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();
 	else if(typeof define === 'function' && define.amd)
-		define([], factory);
+		define("JDate", [], factory);
 	else if(typeof exports === 'object')
 		exports["JDate"] = factory();
 	else
@@ -237,6 +237,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 
 	// Export `JDate` class to global scope
+	exports.default = JDate;
 	exports.JDate = JDate;
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
