@@ -1,10 +1,13 @@
 {
   "name": "j-date",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Date class implementation in Jalali calendar",
-  "main": "dist/index.js",
+  "main": "dist/j-date.js",
   "scripts": {
-    "test": "npm test"
+    "test": "node test.js",
+    "build": "webpack & webpack --config=webpack.config.dist.js",
+    "prepublish": "npm run build",
+    "serve": "webpack -w"
   },
   "repository": {
     "type": "git",

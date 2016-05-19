@@ -2,7 +2,7 @@ module.exports = {
   entry: './lib/index.js',
   output: {
     path: __dirname,
-    filename: './dist/index.js',
+    filename: './dist/j-date.src.js',
     library: 'JDate',
     libraryTarget: 'umd',
     umdNamedDefine: true
