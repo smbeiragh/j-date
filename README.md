@@ -1,6 +1,6 @@
 # Date class implementation in Jalali calendar
 
-** JDate aka Date class implementation for Jalali calendar **
+**JDate aka Date class implementation for Jalali calendar**
 
 This package aimed to develop and maintain Jalaali Calendar also called Persian Calendar in the form of
    Javascript Date Class, Basically we have a JDate class with identical interface and behavior of Data class
@@ -48,9 +48,9 @@ console.log((new JDate('1394-12-2')).toLocaleString());
 Fork this repo and always keep your code on a git branch other than master branch,
 
 ### Setting up dev environment 
-** requirements **
-npm 3.*.* or upper
-node 4.*.* or upper
+**requirements**
+npm 3.*.* or upper  
+node 4.*.* or upper  
  
 ```shel
 git clone clone git@github.com:you/j-date.git
