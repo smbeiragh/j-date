@@ -4,7 +4,7 @@
   "description": "Date class implementation in Jalali calendar",
   "main": "dist/j-date.js",
   "scripts": {
-    "test": "node test.js",
+    "test": "nodeunit test/test.js",
     "build": "webpack & webpack --config=webpack.config.dist.js",
     "prepublish": "npm run build",
     "serve": "webpack -w"
@@ -37,6 +37,7 @@
     "eslint-plugin-jsx-a11y": "^1.2.0",
     "eslint-plugin-react": "^5.1.1",
     "imports-loader": "^0.6.5",
+    "nodeunit": "^0.9.1",
     "npm-shrinkwrap": "^200.5.1",
     "webpack": "^1.13.0"
   },
