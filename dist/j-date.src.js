@@ -142,7 +142,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }
 	  var new_date = (0, _jalali.jd_to_gregorian)((0, _jalali.persian_to_jd_fixed)(persian[0], persian[1], persian[2]));
 	  this._d.setFullYear(new_date[0]);
-	  this._d.setMonth(new_date[1] - 1, new_date[2]);
+	  return this._d.setMonth(new_date[1] - 1, new_date[2]);
 	};
 	/**
 	 * Exactly like `_setPersianDate`, but operates UTC value
@@ -155,7 +155,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  persian[which] = value;
 	  var new_date = (0, _jalali.jd_to_gregorian)((0, _jalali.persian_to_jd_fixed)(persian[0], persian[1], persian[2]));
 	  this._d.setUTCFullYear(new_date[0]);
-	  this._d.setUTCMonth(new_date[1] - 1, new_date[2]);
+	  return this._d.setUTCMonth(new_date[1] - 1, new_date[2]);
 	};
 
 	// All date getter methods
@@ -180,22 +180,22 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	// All date setter methods
 	proto.setDate = function (dayValue) {
-	  this._setPersianDate(2, dayValue);
+	  return this._setPersianDate(2, dayValue);
 	};
 	proto.setFullYear = function (yearValue) {
-	  this._setPersianDate(0, yearValue);
+	  return this._setPersianDate(0, yearValue);
 	};
 	proto.setMonth = function (monthValue, dayValue) {
-	  this._setPersianDate(1, monthValue + 1, dayValue);
+	  return this._setPersianDate(1, monthValue + 1, dayValue);
 	};
 	proto.setUTCDate = function (dayValue) {
-	  this._setUTCPersianDate(2, dayValue);
+	  return this._setUTCPersianDate(2, dayValue);
 	};
 	proto.setUTCFullYear = function (yearValue) {
-	  this._setUTCPersianDate(0, yearValue);
+	  return this._setUTCPersianDate(0, yearValue);
 	};
 	proto.setUTCMonth = function (monthValue, dayValue) {
-	  this._setUTCPersianDate(1, monthValue + 1, dayValue);
+	  return this._setUTCPersianDate(1, monthValue + 1, dayValue);
 	};
 
 	/**

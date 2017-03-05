@@ -38,7 +38,6 @@
     "eslint-plugin-react": "^5.1.1",
     "imports-loader": "^0.6.5",
     "nodeunit": "^0.9.1",
-    "npm-shrinkwrap": "^200.5.1",
     "webpack": "^1.13.0"
   },
   "dependencies": {
